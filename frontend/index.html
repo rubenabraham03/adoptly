@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Adoptly Demo</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>Adoptly – Available Pets</h1>
+
+      <button id="loadPets">Load Available Pets</button>
+      <p id="status" class="status"></p>
+
+      <table id="petsTable">
+        <thead>
+          <tr>
+            <th>Pet ID</th>
+            <th>Name</th>
+            <th>Species</th>
+            <th>Breed</th>
+            <th>Age</th>
+            <th>Size</th>
+            <th>Status</th>
+            <th>Shelter</th>
+          </tr>
+        </thead>
+        <tbody id="petsBody">
+          <!-- rows injected by script.js -->
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
